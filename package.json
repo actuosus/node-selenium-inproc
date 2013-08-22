@@ -12,7 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "env": "env",
-    "install": "make install"
+    "install": "make download && make coffee && make lib/SeleniumWrapper.class"
   },
   "author": "Dave Dopson <ddopson@gmail.com>",
   "license": "WTFPL"
