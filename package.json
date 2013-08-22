@@ -2,7 +2,7 @@
   "name": "selenium-inproc",
   "keywords": ["selenium", "selenese", "browser-automation"],
   "version": "0.1.0",
-  "selenium-url": "http://selenium.googlecode.com/files/selenium-server-standalone-2.25.0.jar",
+  "selenium-url": "https://selenium.googlecode.com/files/selenium-server-standalone-2.35.0.jar",
   "description": "In-process Selenium.  Wraps the Selenium JAR to provide JavaScript bindings for running Selenium based tests",
   "main": "index.js",
   "dependencies": {
