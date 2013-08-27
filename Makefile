@@ -6,7 +6,7 @@ default: coffee lib/SeleniumWrapper.class
 .PHONY: download
 download:
 	@mkdir -p ext
-	cd ext; wget $(npm_package_selenium_url)
+	cd ext; wget --no-check-certificate $(npm_package_selenium_url)
 
 .PHONY: coffee
 coffee: 
