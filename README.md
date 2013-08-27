@@ -1,6 +1,6 @@
 # Overview
 
-Most Selenium solutions involve running the Selenium RC Server JAR file (eg ```java -jar selenium-server-standalone-2.25.0.jar```), letting that listen on port 4444, and then sending commands to it over a TCP connection.  This is what clients like [soda](https://github.com/LearnBoost/soda) do.  
+Most Selenium solutions involve running the Selenium RC Server JAR file (eg ```java -jar selenium-server-standalone-2.35.0.jar```), letting that listen on port 4444, and then sending commands to it over a TCP connection.  This is what clients like [soda](https://github.com/LearnBoost/soda) do.  
 
 That works great for the most part, but has a few downsides: 
 
@@ -20,7 +20,7 @@ For now, this project is the metaphorical "tip of the iceberg".  I'm integrating
 
     npm install selenium-inproc
 
-During install, npm will trigger the Makefile to download selenium-server-standalone-2.25.0.jar (it's ~31M).
+During install, npm will trigger the Makefile to download selenium-server-standalone-2.35.0.jar (it's ~31M).
 Once this finishes, you should be good to go.
 
 
