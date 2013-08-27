@@ -1,7 +1,8 @@
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.Proxy;
-import org.openqa.selenium.SeleneseCommandExecutor;
+// No SeleneseCommandExecutor since 2.3
+// import org.openqa.selenium.SeleneseCommandExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverBackedSelenium;
 import org.openqa.selenium.firefox.FirefoxDriver;
